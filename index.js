@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import chalk from "chalk";
 import clear from "clear";
 import figlet from "figlet";
@@ -59,7 +61,7 @@ const run = async () => {
       choices: weapons,
       default: "Sword"
     },
-    {  
+    {
       name: "confirm-character",
       type: "confirm",
       message: "Confirm character build?",
@@ -70,7 +72,7 @@ const run = async () => {
     const spinner = createSpinner("Creating your character...").start();
     await sleep();
 
-    spinner.success({ text: `${characterName} has been created!`})
+    spinner.success({ text: `${characterName} has been created!` })
   }
 
   createCharacter();

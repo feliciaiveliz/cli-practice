@@ -16,4 +16,9 @@ A simple command line tool that simulates creating a video game character.
 
 ---
 
+- chalk
+- figlet
+- inquirer
+- nanospinner
+
 `npm i chalk figlet inquirer nanospinner`

@@ -14,7 +14,7 @@ const sleep = (ms = 3000) => new Promise(r => setTimeout(r, ms));
 
 console.log(
   chalk.red(
-    figlet.textSync('Elden Souls', { horizontalLayout: 'full' })
+    figlet.textSync('Dark Ring', { horizontalLayout: 'full' })
   )
 );
 
